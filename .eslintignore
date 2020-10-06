@@ -1,0 +1,5 @@
+node_module/*
+
+public/dist/*
+
+**/__mocks__/**

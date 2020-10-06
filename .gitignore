@@ -1,0 +1,15 @@
+node_modules
+
+**/.DS_Store
+
+# Webpack
+public/dist/*
+
+# VScode
+.vscode/*
+
+# yarn
+yarn-error.log
+
+# jest
+coverage/
