@@ -59,6 +59,7 @@
     "stylelint-processor-styled-components": "^1.10.0",
     "svg-react-loader": "^0.4.6",
     "sw-precache-webpack-plugin": "^1.0.0",
+    "ts-jest": "^26.4.1",
     "ts-loader": "^7.0.5",
     "typescript": "^3.8.3",
     "url-loader": "^4.0.0",
