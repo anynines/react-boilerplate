@@ -70,7 +70,7 @@ module.exports = {
       '@helpers': path.resolve(__dirname, 'src/helpers/index.ts'),
       '@api': path.resolve(__dirname, 'src/helpers/api/'),
       '@theme': path.resolve(__dirname, 'src/designSystemStore.ts'),
-      '@data': path.resolve(__dirname, 'src/data/'),
+      '@mockedApi': path.resolve(__dirname, 'src/mockedApi/'),
     },
     modules: [path.resolve('node_modules')]
   },

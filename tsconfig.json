@@ -36,8 +36,8 @@
       "@theme": [
         "./src/designSystemStore.ts"
       ],
-      "@data/*": [
-        "./src/data/*"
+      "@mockedApi/*": [
+        "./src/mockedApi/*"
       ]
     }
   },
