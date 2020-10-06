@@ -68,7 +68,6 @@ module.exports = {
       '@localizeComponent': path.resolve(__dirname, 'src/Localize/Localize.tsx'),
       '@localize': path.resolve(__dirname, 'src/commonLocalize.json'),
       '@helpers': path.resolve(__dirname, 'src/helpers/index.ts'),
-      '@api': path.resolve(__dirname, 'src/helpers/api/'),
       '@theme': path.resolve(__dirname, 'src/designSystemStore.ts'),
       '@mockedApi': path.resolve(__dirname, 'src/mockedApi/'),
     },

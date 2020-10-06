@@ -30,9 +30,6 @@
       "@types": [
         "./src/types/index.ts"
       ],
-      "@api/*": [
-        "./src/helpers/api/*"
-      ],
       "@theme": [
         "./src/designSystemStore.ts"
       ],

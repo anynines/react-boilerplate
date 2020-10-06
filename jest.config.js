@@ -23,8 +23,7 @@ module.exports = {
     "\\.(css|less)$": "identity-obj-proxy",
     "^@mockedApi(.*)$": "<rootDir>/src/mockedApi$1",
     "^@types(.*)$": "<rootDir>/src/types$1",
-    "^@theme(.*)$": "<rootDir>/src/designSystemStore.ts$1",
-    "^@api(.*)$": "<rootDir>/src/helpers/api$1"
+    "^@theme(.*)$": "<rootDir>/src/designSystemStore.ts$1"
   },
   setupFiles: [
     "./config/jest/setupJest.js"
