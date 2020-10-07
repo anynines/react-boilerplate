@@ -16,8 +16,8 @@ It comes with preconfigured features like:
   - 💄 styled-component
   - 🎨 design-system
 - 🌗 Theming
-- ✅ Testing (jest)
-- 🚨 Linter (eslint, stylelint)
+- ✅ Testing
+- 🚨 Linter
 - 👷 Travis
 
 ## 🎉 Quick Start
@@ -61,9 +61,17 @@ yarn build
 
 The generated web app is located in `public`.
 
-## 🌗 Theming
+## 🎨 Design system
 
-The boilerplate preconfigure for you a [design-system](https://github.com/avarteqgmbh/design_system) theme instance.
+The boilerplate render for you a [design-system](https://github.com/avarteqgmbh/design_system) instance in `src/theme/ThemeProvider.tsx`. Adjust your options as you want by modifying `DesignSystemInstance` component's props.
+
+Consume the design-system components in the app:
+
+```javascript
+import { Button, Icon } from '@avarteqgmbh/design_system'
+```
+
+## 🌗 Theming
 
 You can customize the default theme by modifying the `CUSTOM_THEME` object located in `src/theme/customTheme.ts`.
 
@@ -76,3 +84,33 @@ const { theme } = React.useContext(ThemeContext)
 ```
 
 > Note: The design-system is instanciate and store in `src/designSystemStore.ts`.
+
+## ✅ Testing
+
+[Jest](https://jestjs.io/en/) is already configured with [enzyme](https://enzymejs.github.io/enzyme/). Run the tests using:
+
+```bash
+yarn test # run all tests
+yarn test:watch # rerun tests after modification
+yarn test:coverage # generate tests coverage
+```
+
+Add tests by creating a new file `[MyComponent].test.js`. It should be located inside `src`.
+
+## 🚨 Linter
+
+[Eslint](https://eslint.org/) and [stylelint](https://stylelint.io/) are already configured. Check your code by running:
+
+```bash
+yarn lint # run linters
+yarn lint:js # run eslint linter
+yarn lint:css # run stylelint linter
+```
+
+## 👷 Travis
+
+The boilerplate provide a [TravisCI](https://travis-ci.com/) basic configuration. On each new commit, it makes sure that the app build, that there are no linter errors and that the tests do not fail:
+
+```bash
+yarn build && yarn lint && yarn test
+```
