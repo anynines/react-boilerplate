@@ -10,6 +10,10 @@ public/dist/*
 
 # yarn
 yarn-error.log
+yarn.lock
+
+# npm
+package-lock.json
 
 # jest
 coverage/
