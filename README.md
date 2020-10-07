@@ -61,6 +61,24 @@ yarn build
 
 The generated web app is located in `public`.
 
+## 🏷️ TypeScript
+
+TypeScript's pre-configuration is written in a simple `tsconfig.json`. Modify it as you want.
+
+To easily share global types definition, you can define them in a `.ts` file in `src/types`.
+
+Then export these types in `src/types/index.ts`:
+
+```typescript
+export * from './myCreatedTypes'
+```
+
+Now you are able to consume them using the `@types` alias:
+
+```javascript
+import { CustomType } from '@types'
+```
+
 ## 🎨 Design system
 
 The boilerplate render for you a [design-system](https://github.com/avarteqgmbh/design_system) instance in `src/theme/ThemeProvider.tsx`. Adjust your options as you want by modifying `DesignSystemInstance` component's props.

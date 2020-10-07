@@ -1,1 +1,1 @@
-export type Custom = 'foo' | 'bar'
+export type CustomType = 'foo' | 'bar'
