@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "@avarteqgmbh/happy-linter-configs": "^1.1.0",
-    "@types/axios": "^0.14.0",
     "@types/enzyme": "^3.10.5",
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/jest": "^25.1.4",
@@ -25,7 +24,6 @@
     "@types/styled-components": "^5.0.1",
     "@typescript-eslint/eslint-plugin": "^2.24.0",
     "@typescript-eslint/parser": "^2.24.0",
-    "axios-mock-adapter": "^1.18.1",
     "babel-plugin-react-remove-properties": "^0.3.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.2",
@@ -70,7 +68,6 @@
   },
   "dependencies": {
     "@avarteqgmbh/design_system": "^0.10.0",
-    "axios": "^0.19.2",
     "react": ">=16",
     "react-dom": ">= 16.8.0",
     "styled-components": "^5.0.1"
