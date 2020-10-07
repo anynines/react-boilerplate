@@ -13,7 +13,7 @@ It comes with preconfigured features like:
 - 📦 Webpack
 - 🏷️ TypeScript
 - ⚛️ React
-  - 💄 styled-component
+  - 💄 styled-components
   - 🎨 design-system
 - 🌗 Theming
 - ✅ Testing
