@@ -10,14 +10,15 @@ Initialise a React project easily using the anynines React boilerplate.
 
 It comes with preconfigured features like:
 
-- Webpack
-- TypeScript
-- React
-  - styled-component
-  - design-system
-- Testing (jest)
-- Linter (eslint, stylelint)
-- Travis
+- 📦 Webpack
+- 🏷️ TypeScript
+- ⚛️ React
+  - 💄 styled-component
+  - 🎨 design-system
+- 🌗 Theming
+- ✅ Testing (jest)
+- 🚨 Linter (eslint, stylelint)
+- 👷 Travis
 
 ## Quick Start
 
