@@ -19,6 +19,7 @@ It comes with preconfigured features like:
 - ✅ Testing
 - 🚨 Linter
 - 👷 Travis
+- 🤡 Mocked API
 
 ## 🎉 Quick Start
 
@@ -131,4 +132,16 @@ The boilerplate provide a [TravisCI](https://travis-ci.com/) basic configuration
 
 ```bash
 yarn build && yarn lint && yarn test
+```
+
+## 🤡 Mocked API
+
+The boilerplate run a local mocked API in development environment. You can create `.json` files in `src/mockedApi` and fetch them at `/api/[filename].json`.
+
+You can see it in action by running `yarn start` and go to [localhost:9000/api/users.json](http://localhost:9000/api/users.json). This file is located at `src/mockedApi/users.json`.
+
+You can access these files by using the `@mockedApi` alias:
+
+```javascript
+import users from '@mockedApi/users.json'
 ```
