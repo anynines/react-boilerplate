@@ -67,7 +67,7 @@
     "webpack-merge": "^5.1.4"
   },
   "dependencies": {
-    "@avarteqgmbh/design_system": "^0.10.0",
+    "@avarteqgmbh/design_system": "^0.10.1",
     "react": ">=16",
     "react-dom": ">= 16.8.0",
     "styled-components": "^5.0.1"

@@ -27,6 +27,7 @@ const StyledMain = styled.main`
 
   h1 {
     margin-right: var(--space-fixed-sm);
+    color: var(--color-primary);
   }
 `
 
