@@ -1,0 +1,21 @@
+language: node_js
+
+node_js:
+  - node # latest stable Node.js release
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+before_install:
+  - npm install -g yarn
+
+before_script:
+  - yarn install
+
+script:
+  - yarn build && yarn lint && yarn test
+
+email:
+  - bum@avarteq.de
