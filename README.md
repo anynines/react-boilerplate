@@ -20,7 +20,7 @@ It comes with preconfigured features like:
 - 🚨 Linter (eslint, stylelint)
 - 👷 Travis
 
-## Quick Start
+## 🎉 Quick Start
 
 Generate your new GitHub repositories with this [repository templates](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/) or fetch it locally using [degit](https://github.com/Rich-Harris/degit):
 
@@ -42,3 +42,37 @@ yarn start
 ```
 
 Navigate to [localhost:9000](http://localhost:9000/). You should see your app running. Edit the `App` component file in `src`, save it, wait that the page reload: you should see your changes.
+
+## 📦 Build the app
+
+We use [webpack](https://webpack.js.org/) to bundle the React app.
+
+You can build it for development:
+
+```bash
+yarn start
+```
+
+or for production:
+
+```bash
+yarn build
+```
+
+The generated web app is located in `public`.
+
+## 🌗 Theming
+
+The boilerplate preconfigure for you a [design-system](https://github.com/avarteqgmbh/design_system) theme instance.
+
+You can customize the default theme by modifying the `CUSTOM_THEME` object located in `src/theme/customTheme.ts`.
+
+Consume the `ThemeContext` using the `@theme` alias:
+
+```javascript
+import { ThemeContext } from '@theme'
+
+const { theme } = React.useContext(ThemeContext)
+```
+
+> Note: The design-system is instanciate and store in `src/designSystemStore.ts`.
