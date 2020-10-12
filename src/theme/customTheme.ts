@@ -1,4 +1,4 @@
-import { PartialTheme } from '@avarteqgmbh/design_system'
+import { PartialTheme } from '@anynines/design-system'
 
 // I N T E R F A C E S
 export interface CustomTheme extends PartialTheme {

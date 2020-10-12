@@ -85,7 +85,7 @@ The boilerplate render for you a [design-system](https://github.com/avarteqgmbh/
 Consume the design-system components in the app:
 
 ```javascript
-import { Button, Icon } from '@avarteqgmbh/design_system'
+import { Button, Icon } from '@anynines/design-system'
 ```
 
 ## 🌗 Theming
