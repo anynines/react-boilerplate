@@ -80,7 +80,7 @@ import { CustomType } from '@types'
 
 ## 🎨 Design system
 
-The boilerplate render for you a [design-system](https://github.com/avarteqgmbh/design_system) instance in `src/theme/ThemeProvider.tsx`. Adjust your options as you want by modifying `DesignSystemInstance` component's props.
+The boilerplate render for you a [design-system](https://github.com/anynines/design-system) instance in `src/theme/ThemeProvider.tsx`. Adjust your options as you want by modifying `DesignSystemInstance` component's props.
 
 Consume the design-system components in the app:
 
