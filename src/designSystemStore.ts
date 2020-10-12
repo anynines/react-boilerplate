@@ -1,4 +1,4 @@
 import { CustomTheme } from './theme/customTheme'
-import { createDesignSystemContext } from '@avarteqgmbh/design_system'
+import { createDesignSystemContext } from '@anynines/design-system'
 
 export const { DesignSystemInstance, ThemeContext } = createDesignSystemContext<CustomTheme>()

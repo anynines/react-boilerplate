@@ -4,7 +4,7 @@ import 'jest-styled-components'
 
 // C O M P O N E N T S
 import App from './App'
-import { Icon } from '@avarteqgmbh/design_system'
+import { Icon } from '@anynines/design-system'
 
 describe('<App />', () => {
   let wrapper

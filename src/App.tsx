@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 // C O M P O N E N T S
-import { Icon } from '@avarteqgmbh/design_system'
+import { Icon } from '@anynines/design-system'
 import ThemeProvider from './theme/ThemeProvider'
 
 // C O M P O N E N T
