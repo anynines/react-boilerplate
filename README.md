@@ -102,6 +102,22 @@ const { theme } = React.useContext(ThemeContext)
 
 > Note: The design-system is instanciate and store in `src/designSystemStore.ts`.
 
+## 💄 Styling
+
+You can style you application by using [styled-components](https://styled-components.com/) which is already set-up. You can modify the global styles in the `src/theme/ThemeProvider.tsx` file where you will see the `createGlobalStyle` declaration:
+
+```javascript
+// S T Y L E S
+const AdditionalGlobalStyle = createGlobalStyle<AdditionalGlobalStyle>`
+  body {
+    margin: 0;
+    padding:0;
+  }
+
+  /* add you global styles here */
+`
+```
+
 ## ✅ Testing
 
 [Jest](https://jestjs.io/en/) is already configured with [enzyme](https://enzymejs.github.io/enzyme/). Run the tests using:
