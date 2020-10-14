@@ -72,11 +72,5 @@ module.exports = {
       '@mockedApi': path.resolve(__dirname, 'src/mockedApi/'),
     },
     modules: [path.resolve('node_modules')]
-  },
-  devServer: {
-    contentBase: path.join(__dirname, 'public/'),
-    compress: true,
-    writeToDisk: true,
-    port: 9000
   }
 };
