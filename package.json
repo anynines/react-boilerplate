@@ -9,9 +9,9 @@
     "lint": "yarn lint:js && yarn lint:css",
     "lint:css": "yarn stylelint './src/**/*.tsx'",
     "lint:js": "yarn eslint . --ext .ts,.tsx",
-    "test": "jest --verbose",
-    "test:watch": "jest --watch --verbose",
-    "test:coverage": "jest --verbose --coverage --maxWorkers=4",
+    "test": "jest --verbose --passWithNoTests",
+    "test:watch": "jest --watch --verbose --passWithNoTests",
+    "test:coverage": "jest --verbose --coverage --maxWorkers=4 --passWithNoTests",
     "open:coverage": "open ./coverage/lcov-report/index.html"
   },
   "devDependencies": {
