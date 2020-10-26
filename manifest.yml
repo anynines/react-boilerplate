@@ -1,5 +1,5 @@
 applications:
-  - name: react-boilerplate
+  - name: [YOUR_APP_NAME]
     path: public
     instances: 1
     memory: 64M

@@ -1,4 +1,4 @@
 #!/bin/bash
 
 yarn build
-cf push react-boilerplate
+cf push [YOUR_APP_NAME]
