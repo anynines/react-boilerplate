@@ -163,7 +163,7 @@ import users from '@mockedApi/users.json'
 
 ## Cloud Foundry Deployment
 
-You can deploy your react-boilerplate on the [Cloud Foundry Platform](https://www.cloudfoundry.org/) [anynines](https://paas.anynines.com/). For a Cloud Foundry deployment you need to install the Cloud [Foundry CLI](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html). 
+You can deploy your react-boilerplate on any [Cloud Foundry Platform](https://www.cloudfoundry.org/) like [anynines](https://paas.anynines.com/). For a Cloud Foundry deployment you need to install the [Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html). 
 
 Specify your Cloud Foundry API endpoint and authenticate with your account.
 
@@ -172,15 +172,15 @@ cf api [URL_FOR_API_ENDPOINT]
 cf login
 ```
 
-You can select or change the traget for your app with:
+You can select or change the target for your app with:
 
 ```bash
-cf target -o [ORGANISATION] -s [SPACE]
+cf target -o [YOUR_ORG] -s [YOUR_SPACE]
 ```
 
-Add the name of your app for the placeholder `[YOUR_APP_NAME]` in the `manifest.yml` and `deploy.sh` or `deploy.bat` file.
+Replace `[YOUR_APP_NAME]` with the name of your app in the `manifest.yml` and respectively in the `deploy.sh` or the `deploy.bat` file if you are using a unix-like or windows environment.
 
-Run the corresponding script for your OS to deploy your app.
+To start deploying the app you just have to run the corresponding deploy script for your environment. 
 
 ```bash
 deploy.sh
