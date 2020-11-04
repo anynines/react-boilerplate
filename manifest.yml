@@ -1,0 +1,9 @@
+applications:
+  - name: [YOUR_APP_NAME]
+    path: public
+    instances: 1
+    memory: 64M
+    stack: cflinuxfs3
+    disk_quota: 128M
+    buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  
