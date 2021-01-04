@@ -16,7 +16,6 @@ const ThemeProvider: React.FC = ({ children }) => {
   return (
     <DesignSystemInstance
       theme={CUSTOM_THEME}
-      persistantThemeStorage
     >
       <AdditionalGlobalStyle />
       {children}
