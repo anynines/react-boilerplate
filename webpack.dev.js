@@ -1,8 +1,6 @@
 const path = require('path');
-const { merge } = require('webpack-merge');
-const common = require('./webpack.common.js');
 
-module.exports = merge(common, {
+module.exports = {
   mode: 'development',
   devtool: 'source-map',
   devServer: {
@@ -12,4 +10,4 @@ module.exports = merge(common, {
     writeToDisk: true,
     port: 9000
   }
-});
+}

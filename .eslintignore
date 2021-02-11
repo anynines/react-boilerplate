@@ -3,3 +3,6 @@ node_module/*
 public/dist/*
 
 **/__mocks__/**
+
+# webpack config files
+/webpack.*

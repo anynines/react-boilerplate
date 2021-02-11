@@ -7,8 +7,10 @@ export interface CustomTheme extends PartialTheme {
 export type Theme = CustomTheme & DesignSystemTheme
 
 export const CUSTOM_THEME: CustomTheme = {
-  colors: {
-    primary: 'deeppink'
+  globals: {
+    colors: {
+      primary: 'deeppink'
+    }
   },
   customColor: 'red'
 }
